@@ -5,7 +5,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url('bg1.jpg');
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url('/img/bg1.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -17,6 +17,7 @@ nav{
     align-items: center;
 }
 nav img{
+    border-radius: 50%;
     width: 170px;
     height: 150px;
 }
@@ -227,7 +228,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('work.png');
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/img/work.png');
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -257,7 +258,7 @@ h3{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('ab.png') ;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('/img/ab.png') ;
     background-position:center ;
     background-size: cover;
     text-align: center;
@@ -378,4 +379,147 @@ h3{
     margin-bottom: 17px;
     outline: none;
     border: 1px solid #ccc;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
+}
+
+.password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-image: url('/img/hidden.png'); /* Replace 'eye-icon.png' with your eye icon image */
+    background-size: cover;
+}
+
+.password-toggle.active {
+    background-image: url('/img/eye.png'); /* Replace 'eye-slash-icon.png' with your eye slash icon image */
+}
+
+.a {
+    text-decoration: none;
+    color: #4caf50;
+}
+
+h3 {
+    text-align: center;
+}
+.a:hover{
+    text-decoration: underline;
+}
+
+/*login page css*/
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-image: url('/img/hidden.png'); /* Replace 'eye-icon.png' with your eye icon image */
+    background-size: cover;
+}
+
+.password-toggle.active {
+    background-image: url('/img/eye.png'); /* Replace 'eye-slash-icon.png' with your eye slash icon image */
 }
