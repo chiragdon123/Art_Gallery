@@ -5,7 +5,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url('/img/bg1.jpg');
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url('bg1.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -228,7 +228,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/img/work.png');
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('work.png');
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -258,7 +258,7 @@ h3{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('/img/ab.png') ;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('ab.png') ;
     background-position:center ;
     background-size: cover;
     text-align: center;
@@ -441,12 +441,12 @@ button[type="reset"] {
     cursor: pointer;
     width: 20px;
     height: 20px;
-    background-image: url('/img/hidden.png'); /* Replace 'eye-icon.png' with your eye icon image */
+    background-image: url('hidden.png'); /* Replace 'eye-icon.png' with your eye icon image */
     background-size: cover;
 }
 
 .password-toggle.active {
-    background-image: url('/img/eye.png'); /* Replace 'eye-slash-icon.png' with your eye slash icon image */
+    background-image: url('eye.png'); /* Replace 'eye-slash-icon.png' with your eye slash icon image */
 }
 
 .a {
@@ -516,10 +516,10 @@ button {
     cursor: pointer;
     width: 20px;
     height: 20px;
-    background-image: url('/img/hidden.png'); /* Replace 'eye-icon.png' with your eye icon image */
+    background-image: url('hidden.png'); /* Replace 'eye-icon.png' with your eye icon image */
     background-size: cover;
 }
 
 .password-toggle.active {
-    background-image: url('/img/eye.png'); /* Replace 'eye-slash-icon.png' with your eye slash icon image */
+    background-image: url('eye.png'); /* Replace 'eye-slash-icon.png' with your eye slash icon image */
 }
