@@ -256,7 +256,7 @@ h3{
 }
 
 .sub-header{
-    height: 50vh;
+    height: 40vh;
     width: 100%;
     background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('ab.png') ;
     background-position:center ;
@@ -385,70 +385,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-form {
-    max-width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    text-align: center;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-input[type="text"],
-input[type="password"],
-input[type="tel"] {
-    width: calc(100% - 20px);
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    padding: 10px 20px;
-    margin-right: 10px;
-    border: none;
-    border-radius: 4px;
-    background-color: #4caf50;
-    color: #fff;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-button[type="reset"] {
-    background-color: #f44336;
-}
-
-.password-toggle {
-    position: absolute;
-    top: 50%;
-    right: 5px;
-    transform: translateY(-50%);
-    cursor: pointer;
-    width: 20px;
-    height: 20px;
-    background-image: url('hidden.png'); /* Replace 'eye-icon.png' with your eye icon image */
-    background-size: cover;
-}
-
-.password-toggle.active {
-    background-image: url('eye.png'); /* Replace 'eye-slash-icon.png' with your eye slash icon image */
-}
-
 .a {
     text-decoration: none;
     color: #4caf50;
@@ -461,65 +397,115 @@ h3 {
     text-decoration: underline;
 }
 
-/*login page css*/
-body {
-    font-family: Arial, sans-serif;
+/*login and sign page css */
+.form{
+    width: 270px;
+    height: 450px;
+    background: linear-gradient(to top,blue , purple);
+    position: center;
+    top: 150px;
+    left: 980px;
+    border-radius: 10px;
+    padding: 25px;
+    margin: auto;
 }
+body{
+    background: linear-gradient(to top,rgb(107, 204, 243) , rgb(107, 216, 161),rgb(224, 224, 131));
 
-form {
-    max-width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-h2 {
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
     text-align: center;
+    color:beige;
+    font-size: 22px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
 }
 
-.form-group {
-    margin-bottom: 20px;
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid red;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color : white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
+.form input:focus{
+    outline: none;
 }
 
-input[type="text"],
-input[type="password"] {
-    width: calc(100% - 20px);
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+::placeholder{
+    column-rule: white;
+    font-family: Arial;
 }
 
-button {
-    padding: 10px 20px;
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: red;
     border: none;
-    border-radius: 4px;
-    background-color: #4caf50;
-    color: #fff;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
     cursor: pointer;
-    font-size: 16px;
+    color: white;
+    transition: 0.3s ease;
 }
 
-.password-toggle {
-    position: absolute;
-    top: 50%;
-    right: 5px;
-    transform: translateY(-50%);
-    cursor: pointer;
-    width: 20px;
-    height: 20px;
-    background-image: url('hidden.png'); /* Replace 'eye-icon.png' with your eye icon image */
-    background-size: cover;
+.btnn:hover{
+    background-color: white;
+    color: red;
 }
 
-.password-toggle.active {
-    background-image: url('eye.png'); /* Replace 'eye-slash-icon.png' with your eye slash icon image */
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: beige;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: red;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: beige;
+}
+
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon ion-icon{
+    color: white;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icon ion-icon:hover{
+    color: red;
 }
